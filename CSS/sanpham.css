@@ -1,0 +1,356 @@
+html {
+    font-family: 'Quicksand', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 999px;
+}
+
+.container {
+    position: relative;
+    width: 1920px;
+    height: 2700px;
+
+    background: linear-gradient(180deg, rgba(44, 57, 84, 0.84) 0%, #8C8FA0 32.93%, #f1f5f7 87.16%, #ebe7ef 95.43%);
+}
+
+.container header .inner {
+    /* position: absolute;  */
+    width: 1920px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    right: 0;
+
+}
+
+
+.container header .inner .logo {
+    margin-left: 140px;
+}
+
+.container header .inner .logo img {
+    width: 100px;
+    height: auto;
+}
+
+.container header .inner .logo .tieuDe {
+    float: right;
+    margin-right: 200px;
+    margin-top: 15px;
+}
+
+.container header .inner .logo .tieuDe a {
+    text-decoration: none;
+    margin: 100px;
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    font-weight: bold;
+}
+
+
+.container header .inner .logo .tieuDe a:hover {
+    border: 2px solid;
+    border-radius: 20px;
+    transition: all 0.2s linear;
+    font-size: 20px;
+    background-color: rgb(125, 125, 124);
+}
+
+
+.container header .inner .logo .tieuDe ul {
+    float: right;
+    margin-right: -25px;
+}
+
+.container header .inner .logo .tieuDe ul a {
+    margin: 20px;
+}
+
+.container header .inner .nenthom {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container header .inner .nenthom .left {
+    float: left;
+    width: 35%;
+}
+
+.container header .inner .nenthom .left:hover {
+    cursor: pointer;
+    color: aqua;
+    font-size: smaller;
+}
+
+.container header .inner .nenthom p {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.container header .inner .nenthom:hover {
+    cursor: pointer;
+    color: aqua;
+    font-size: smaller;
+    font-size: 20px;
+    transition: all .2s linear;
+}
+
+.container header .inner .nenthom .right {
+    float: right;
+    width: 35%;
+}
+
+/* css cho phaanf list sanr pham */
+
+
+.container section .inner {
+    width: 1920px;
+    height: 2980px;
+    left: 0px;
+    top: 0px;
+    right: 0;
+    background-color: aliceblue;
+}
+
+.container section .inner .sp {
+    width: 1890;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.container section .inner .sp .list-sp {
+    width: 30%;
+    display: inline-block;
+    height: auto;
+    margin-left: 55px;
+    margin-top: 50px;
+    padding: 20px;
+    border: 2px solid ghostwhite;
+    box-shadow: inset 0 0 10px 10px rgb(227, 227, 238);
+    border-radius: 10px;
+}
+
+
+.container section .inner .sp .list-sp .img {
+    width: 30%;
+    height: 440px;
+}
+
+.container section .inner .sp .list-sp .img img {
+    width: 500px;
+    height: 400px;
+
+    margin-left: 15px;
+}
+
+.container section .inner .sp .list-sp .img img:hover {
+    border: 2px solid rgb(219, 217, 217);
+    transition: all .5s linear;
+    cursor: pointer;
+}
+
+.container section .inner .sp .list-sp .title {
+    width: 500px;
+    height: auto;
+    margin: auto;
+}
+
+.container section .inner .sp .list-sp .title p {
+    width: 440px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.container section .inner .sp .list-sp .title p:hover {
+    color: aqua;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.container section .inner .sp .list-sp .title .price .prices {
+    font-size: smaller;
+    margin: auto;
+    margin-top: 10px;
+    width: 100px;
+}
+
+.container section .inner .sp .list-sp .title .price .button {
+    font-weight: bolder;
+    font-style: normal;
+    margin: auto;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.container section .inner .sp .list-sp .title .price a {
+    text-decoration: none;
+}
+
+.container section .inner .sp .list-sp .title .price .button:hover {
+    border: 1px solid floralwhite;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    color: rgb(13, 13, 13);
+}
+
+/* css cho phan footer  */
+
+
+/* footer */
+footer .inner3 {
+    background: linear-gradient(180deg, rgba(44, 57, 84, 0.84) 0%, #8C8FA0 32.93%, #f1f5f7 87.16%, #ebe7ef 95.43%);
+
+    width: 1920PX;
+    height: 500px;
+    margin-top: -1020px;
+}
+
+footer .inner3 .thongtin {
+    width: 1800px;
+    margin: auto;
+    height: auto;
+    display: flex;
+}
+
+/* css cho giowis thieu */
+
+footer .inner3 .thongtin .tt1 {
+    width: 33%;
+    height: 200px;
+    margin-right: 40px;
+}
+
+footer .inner3 .thongtin .tt1 h4 {
+    color: rgb(218, 210, 199);
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+footer .inner3 .thongtin .tt1 hr {
+    width: 30%;
+    margin-left: 170px;
+    margin-top: 10px;
+    height: 1px;
+}
+
+footer .inner3 .thongtin .tt1 p {
+    color: aqua;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+/* css cho thoong tin liene heej */
+
+
+footer .inner3 .thongtin .tt2 {
+    width: 33%;
+    height: 500px;
+    margin-right: 40px;
+}
+
+
+footer .inner3 .thongtin .tt2 h4 {
+    color: rgb(218, 210, 199);
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+footer .inner3 .thongtin .tt2 hr {
+    width: 30%;
+    margin-left: 190px;
+    margin-top: 10px;
+    height: 1px;
+}
+
+
+footer .inner3 .thongtin .tt2 img {
+    margin-top: 18px;
+    float: left;
+    left: 0px;
+}
+
+footer .inner3 .thongtin .tt2 img:hover {
+    border: 2px solid white;
+    border-radius: 20px;
+    transition: all 0.2s linear;
+}
+
+footer .inner3 .thongtin .tt2 p {
+    /* float: right; */
+    color: aqua;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+footer .inner3 .thongtin .tt2 a {
+    padding-top: 30px;
+    margin: 10px 20px;
+    float: left;
+ 
+}
+
+footer .inner3 .thongtin .tt2 a:hover{
+    border-radius: 20px;
+    border: 1px solid rgb(102, 91, 169);
+   width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+
+/* css chop chuyeen muc  */
+
+footer .inner3 .thongtin .tt3 {
+    width: 33%;
+    height: 500px;
+    margin-right: 40px;
+}
+
+
+footer .inner3 .thongtin .tt3 h4 {
+    color: rgb(218, 210, 199);
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+footer .inner3 .thongtin .tt3 hr {
+    width: 30%;
+    margin-left: 170px;
+    margin-top: 10px;
+    height: 1px;
+}
+
+footer .inner3 .thongtin .tt3 p {
+    color: aqua;
+    margin-top: 40px;
+    margin-left: 140px;
+}
+
+/* css cho footer cuoi */
+footer .inner3 .footer {
+    width: 100%;
+    margin-top: -30px;
+    height: 10px;
+}
+
+footer .inner3 .footer p {
+    text-align: center;
+    color: aqua;
+}
+
+/* End. footer */

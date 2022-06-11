@@ -1,0 +1,141 @@
+/* section 1*/
+.container section .inner1 {
+    width: 1920px;
+    height: 600px;
+    left: 0px;
+    top: 0px;
+    right: 0;
+}
+
+.container section .inner1 .gt .conten {
+    float: left;
+    margin-left: 10%;
+    width: 700px;
+    height: 300px;
+}
+
+.container section .inner1 .gt h1 {
+    color: black;
+    margin-top: 110px;
+    font-size: 50px;
+    margin-left: 450px;
+    color: #515151;
+
+}
+
+.container section .inner1 .gt .conten .gt1{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #a6a5a5;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.container section .inner1 .gt .conten .gt2{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #a6a5a5;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.container section .inner1 .gt .conten .gt3{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #a6a5a5;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.container section .inner1 .image {
+    float: right;
+    margin-right: 10%;
+}
+
+.container section .inner1 .image:hover{
+    border: 7px solid wheat;
+    border-radius: 10px;
+    transition: all 0.2s linear;
+}
+/*End. section 1 */
+
+/* section 2 */
+.container section .inner2{
+    width: 1920px;
+    height: auto;
+}
+
+.container section .inner2 h1{
+    color: black;
+    margin-top: 10px;
+    font-size: 40px;
+    margin-left: 200px;
+    color: #515151;
+}
+
+.container section .inner2 hr{
+    width: 77%;
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.container section .inner2 .sp{
+    width: 1520px;
+    height: auto;
+    margin-left: 200px;
+    background-color: rgb(201, 185, 185);
+    border-radius: 15px;
+    margin-top: 80px; 
+}
+
+.container section .inner2 .sp .list-sp .sp1{
+    /* width: 480px;
+    height: 660px;
+    background-color: aqua;
+    margin-left: 10px;margin-top: 100px;
+    /* margin: 15px; */
+    width: 32%;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    height: auto;
+}  
+
+.container section .inner2 .sp .list-sp .sp1 img{
+    width: 480px;
+    height: auto;
+    margin-top: 10px; 
+}
+
+.container section .inner2 .sp .list-sp .sp1 img:hover{
+    border: 7px solid wheat;
+    border-radius: 10px;
+    transition: all 0.2s linear;
+}
+
+.container section .inner2 .sp .list-sp .sp1 p{
+    color: rgb(247, 248, 249);
+    width: 400px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.container section .inner2 .sp .list-sp .sp1 p:hover{
+    transition: all 1s linear;
+    font-size: 18px;
+    color:blue;
+}
+
+.container section .inner2 .sp .list-sp .sp1 span{
+    color: rgb(58, 54, 57);
+    width: 200px;
+    margin: auto;
+    margin-left: 200px;
+}
+
+
+/* End . section 2 */

@@ -1,0 +1,509 @@
+html {
+    font-family: 'Quicksand', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 999px;
+}
+
+.container {
+    position: relative;
+    width: 1920px;
+    height: 2700px;
+
+    background: linear-gradient(180deg, rgba(44, 57, 84, 0.84) 0%, #8C8FA0 32.93%, #f1f5f7 87.16%, #ebe7ef 95.43%);
+}
+
+.container header .inner {
+    /* position: absolute;  */
+    width: 1920px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    right: 0;
+
+}
+
+
+.container header .inner .logo {
+    margin-left: 140px;
+}
+
+.container header .inner .logo img {
+    width: 100px;
+    height: auto;
+}
+
+.container header .inner .logo .tieuDe {
+    float: right;
+    margin-right: 200px;
+    margin-top: 15px;
+}
+
+.container header .inner .logo .tieuDe a {
+    text-decoration: none;
+    margin: 100px;
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    font-weight: bold;
+}
+
+
+.container header .inner .logo .tieuDe a:hover {
+    border: 2px solid;
+    border-radius: 20px;
+    transition: all 0.2s linear;
+    font-size: 20px;
+    background-color: rgb(125, 125, 124);
+}
+
+
+.container header .inner .logo .tieuDe ul {
+    float: right;
+    margin-right: -25px;
+}
+
+.container header .inner .logo .tieuDe ul a {
+    margin: 20px;
+}
+
+
+
+/* css cho section inner 1 */
+.container section .inner1 {
+    width: 100%;
+    height: auto;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: aliceblue;
+    display: flex;
+}
+
+.container section .inner1 .img {
+    margin-left: 140px;
+    padding: 80px 0px;
+}
+
+
+.container section .inner1 .img .anh .list-img {
+    width: 100%;
+    height: auto;
+}
+
+.container section .inner1 .img .anh .list-img .img-one {
+    width: 20%;
+    display: inline-block;
+    height: auto;
+    margin: 15px 0px 0px 18px;
+    padding: 5px;
+}
+
+.container section .inner1 .content {
+    height: auto;
+    width: 750px;
+    margin-left: 120px;
+    margin-top: 80px;
+}
+
+.container section .inner1 .content h3 {
+    font-weight: lighter;
+}
+
+.container section .inner1 .content h2 {
+    margin-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container section .inner1 .content .up {
+    width: 50px;
+    height: 5px;
+    margin: 10px 0px;
+    background-color: black;
+}
+
+.container section .inner1 .content span {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.container section .inner1 .content input {
+    margin-top: 15px;
+    width: 60px;
+    height: 30px;
+}
+
+.container section .inner1 .content button {
+    margin-left: 20px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+}
+
+.container section .inner1 .content hr {
+    margin-top: 50px;
+}
+
+/* end. secion inner 1 */
+
+
+
+/* css cho section inner2  */
+.container section .inner2 {
+    width: 1920px;
+    height: 1700px;
+    left: 0px;
+    top: 0px;
+    right: 0;
+
+    background-color: aliceblue;
+}
+
+.container section .inner2 h1 {
+    margin-left: 140px;
+    font-size: 30px;
+}
+
+
+.container section .inner2 .sp {
+    width: 1890;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.container section .inner2 .sp .list-sp {
+    width: 20%;
+    display: inline-block;
+    height: 450px;
+    margin-left: 70px;
+    margin-top: 50px;
+    padding: 20px;
+    border: 2px solid ghostwhite;
+    box-shadow: inset 0 0 10px 10px rgb(227, 227, 238);
+    border-radius: 10px;
+}
+
+
+.container section .inner2 .sp .list-sp .img {
+    width: 20%;
+    height: 450px;
+}
+
+.container section .inner2 .sp .list-sp .img img {
+    width: 300px;
+    height: 250px;
+
+    margin-left: 20px;
+}
+
+.container section .inner2 .sp .list-sp .img img:hover {
+    border: 2px solid rgb(219, 217, 217);
+    transition: all .5s linear;
+    cursor: pointer;
+}
+
+.container section .inner2 .sp .list-sp .title {
+    width: 200px;
+    height: auto;
+    margin: auto;
+}
+
+.container section .inner2 .sp .list-sp .title p {
+    width: 300px;
+    height: 20px;
+    text-align: center;
+    margin-top: -180px;
+    margin-left: -50px;
+}
+
+.container section .inner2 .sp .list-sp .title p:hover {
+    color: aqua;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.container section .inner2 .sp .list-sp .title .price .prices {
+    font-size: smaller;
+    margin: auto;
+    margin-top: 10px;
+    width: 100px;
+}
+
+.container section .inner2 .sp .list-sp .title .price .button {
+    font-weight: bolder;
+    font-style: normal;
+    margin: auto;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.container section .inner2 .sp .list-sp .title .price .button:hover {
+    border: 1px solid floralwhite;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    color: rgb(13, 13, 13);
+}
+
+/* end.section */
+
+
+/* css cho section inner 4 */
+.container section .inner4 {
+    width: 1920px;
+    height: 700px;
+    left: 0px;
+    top: 0px;
+    right: 0;
+    background-color: aliceblue;
+}
+
+.container section .inner4 .contend {
+    width: 1595px;
+    height: 500px;
+    margin-left: 140px;
+
+}
+
+.container section .inner4 .contend h1 {
+    font-size: 30px;
+}
+
+.container section .inner4 .contend span {
+    margin: 20px;
+    font-weight: bold;
+}
+
+.container section .inner4 .contend .box1 p {
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.container section .inner4 .contend .box2 p {
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+
+}
+
+.container section .inner4 .contend .box3 p {
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+
+}
+
+
+/* end. section inner 4 */
+
+
+
+
+/* css cho phan footer  */
+
+
+footer .inner3 {
+    background: linear-gradient(180deg, rgba(44, 57, 84, 0.84) 0%, #8C8FA0 32.93%, #f1f5f7 87.16%, #ebe7ef 95.43%);
+
+    width: 1920PX;
+    height: 500px;
+    margin-top: -1020px;
+}
+
+footer .inner3 .thongtin {
+    width: 1800px;
+    margin: auto;
+    height: auto;
+    display: flex;
+}
+
+/* css cho giowis thieu */
+
+footer .inner3 .thongtin .tt1 {
+    width: 33%;
+    height: 200px;
+    margin-right: 40px;
+}
+
+footer .inner3 .thongtin .tt1 h4 {
+    color: rgb(218, 210, 199);
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+footer .inner3 .thongtin .tt1 hr {
+    width: 30%;
+    margin-left: 170px;
+    margin-top: 10px;
+    height: 1px;
+}
+
+footer .inner3 .thongtin .tt1 p {
+    color: aqua;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+/* css cho thoong tin liene heej */
+
+
+footer .inner3 .thongtin .tt2 {
+    width: 33%;
+    height: 500px;
+    margin-right: 40px;
+}
+
+
+footer .inner3 .thongtin .tt2 h4 {
+    color: rgb(218, 210, 199);
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+footer .inner3 .thongtin .tt2 hr {
+    width: 30%;
+    margin-left: 190px;
+    margin-top: 10px;
+    height: 1px;
+}
+
+
+footer .inner3 .thongtin .tt2 img {
+    margin-top: 18px;
+    float: left;
+    left: 0px;
+}
+
+footer .inner3 .thongtin .tt2 img:hover {
+    border: 2px solid white;
+    border-radius: 20px;
+    transition: all 0.2s linear;
+}
+
+footer .inner3 .thongtin .tt2 p {
+    /* float: right; */
+    color: aqua;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+footer .inner3 .thongtin .tt2 a {
+    padding-top: 30px;
+    margin: 10px 20px;
+    float: left;
+
+}
+
+footer .inner3 .thongtin .tt2 a:hover {
+    border-radius: 20px;
+    border: 1px solid rgb(102, 91, 169);
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+
+/* css chop chuyeen muc  */
+
+footer .inner3 .thongtin .tt3 {
+    width: 33%;
+    height: 500px;
+    margin-right: 40px;
+}
+
+
+footer .inner3 .thongtin .tt3 h4 {
+    color: rgb(218, 210, 199);
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+footer .inner3 .thongtin .tt3 hr {
+    width: 30%;
+    margin-left: 170px;
+    margin-top: 10px;
+    height: 1px;
+}
+
+footer .inner3 .thongtin .tt3 p {
+    color: aqua;
+    margin-top: 40px;
+    margin-left: 140px;
+}
+
+/* css cho footer cuoi */
+footer .inner3 .footer {
+    width: 100%;
+    margin-top: -30px;
+    height: 10px;
+}
+
+footer .inner3 .footer p {
+    text-align: center;
+    color: aqua;
+}
+
+/* End. footer */
+
+
+/*  reponsive cho chi tiet sản phâm */
+/* 
+@media (min-width: 576px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .container section .inner1 .img .anh {
+        max-width: 200px;
+    }
+
+    .container section .inner1 .img .list-img {
+        max-width: 500px;
+    }
+
+    .container section .inner1 .content {
+        max-width: 300px;
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    .container header .inner {
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .container header .inner .logo {
+        max-width: 800px;
+        text-align: center;
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+
+} */

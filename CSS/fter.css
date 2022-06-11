@@ -1,0 +1,132 @@
+/* footer */
+footer .inner3{
+    /* background-color: rgb(145, 141, 141); */
+    background: linear-gradient(180deg, rgba(44, 57, 84, 0.84) 0%, #8C8FA0 32.93%, #f1f5f7 87.16%, #ebe7ef 95.43%);
+    
+    width: 1920PX;
+    height: 500px;
+    margin-top: -1020px;
+}
+
+footer .inner3 .thongtin{
+    width: 1800px;
+    margin: auto;
+    height: auto;
+    display: flex;
+}
+/* css cho giowis thieu */
+
+footer .inner3 .thongtin .tt1{
+    width: 33%;
+    height: 200px;
+    margin-right: 40px;
+}
+
+footer .inner3 .thongtin .tt1 h4{
+    color: rgb(218, 210, 199);
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+footer .inner3 .thongtin .tt1 hr{
+    width: 30%;
+    margin-left: 170px;
+    margin-top: 10px;
+    height: 1px;
+}
+
+footer .inner3 .thongtin .tt1 p{
+    color: aqua;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+/* css cho thoong tin liene heej */
+
+
+footer .inner3 .thongtin .tt2{
+    width: 33%;
+    height: 500px;
+    margin-right: 40px;
+}
+
+
+footer .inner3 .thongtin .tt2 h4{
+    color: rgb(218, 210, 199);
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+footer .inner3 .thongtin .tt2 hr{
+    width: 30%;
+    margin-left: 190px;
+    margin-top: 10px;
+    height: 1px;
+}
+
+
+footer .inner3 .thongtin .tt2 img{
+    margin-top: 18px;  
+    float: left;
+    left: 0px;
+}
+
+footer .inner3 .thongtin .tt2 img:hover{
+    border: 2px solid white ;
+    border-radius: 20px;
+    transition: all 0.2s linear;
+}
+
+footer .inner3 .thongtin .tt2 p{
+    /* float: right; */
+    color: aqua;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+footer .inner3 .thongtin .tt2  a{
+    padding-top: 30px;
+    margin: 10px 20px;
+    float: left;
+}
+
+
+/* css chop chuyeen muc  */
+
+footer .inner3 .thongtin .tt3{
+    width: 33%;
+    height: 500px;
+    margin-right: 40px;
+}
+
+
+footer .inner3 .thongtin .tt3 h4{
+    color: rgb(218, 210, 199);
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+footer .inner3 .thongtin .tt3 hr{
+    width: 30%;
+    margin-left: 170px;
+    margin-top: 10px;
+    height: 1px;
+}
+
+footer .inner3 .thongtin .tt3 p{
+    color: aqua;
+    margin-top: 40px;
+    margin-left: 140px;
+}
+
+/* css cho footer cuoi */
+footer .inner3 .footer{
+    width: 100%;
+    margin-top: -30px;
+    height: 10px;
+}
+
+footer .inner3 .footer p{
+    text-align: center;
+    color: aqua;
+}
+/* End. footer */

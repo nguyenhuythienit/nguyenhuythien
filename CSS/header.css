@@ -1,0 +1,85 @@
+html {
+    font-family: 'Quicksand', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 999px;
+}
+
+.container {
+    /* position: relative; */
+    width: 1920px;
+    height: 3570px;
+    background-color:white;
+    top: 0;
+    left: 0;
+}
+
+.container header .inner {
+    /* position: absolute;  */
+    width: 1920px;
+    height: 1000px;
+    left: 0px;
+    top: 0px;
+    right: 0;
+
+    background: url(../Images/nenchill.jpg);
+}
+
+.container header .inner .logo{
+    margin-left: 130px; 
+}
+
+.container header .inner .logo .tieuDe{
+    float:right;
+    margin-right: 200px;  margin-top: 15px;
+}
+
+.container header .inner .logo .tieuDe a{
+    text-decoration: none;
+    margin: 100px;
+    color: white;
+    font-size: 20px;  
+    list-style: none; 
+    font-weight: bold;
+}
+
+
+.container header .inner .logo .tieuDe a:hover{
+    border: 2px solid;
+    border-radius: 20px;
+    transition: all 0.2s linear;
+    font-size: 20px;
+    background-color: rgb(125, 125, 124);
+}
+
+
+.container header .inner .logo .tieuDe ul{
+    float: right;
+    margin-right: -20px;
+}
+
+.container header .inner .logo .tieuDe ul a{
+    margin: 20px;
+}
+
+
+.container header .inner .content{
+    float: left;
+    margin-top: 350px;
+}
+
+.container header .inner .content h2{
+    margin-left: 200px;
+    color: aliceblue;
+}
+
+.container header .inner .content p{
+    margin-left: 200px;
+    color: aliceblue;
+    margin-top: 10px; 
+}
+    

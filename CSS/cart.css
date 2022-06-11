@@ -1,0 +1,404 @@
+html {
+    font-family: 'Quicksand', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 999px;
+}
+
+.container {
+    position: relative;
+    width: 1920px;
+    height: 1300px;
+
+    background: linear-gradient(180deg, rgba(44, 57, 84, 0.84) 0%, #8C8FA0 32.93%, #f1f5f7 87.16%, #ebe7ef 95.43%);
+}
+
+.container header .inner {
+    /* position: absolute;  */
+    width: 1920px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    right: 0;
+
+}
+
+
+.container header .inner .logo {
+    margin-left: 140px;
+}
+
+.container header .inner .logo img {
+    width: 100px;
+    height: auto;
+}
+
+.container header .inner .logo .tieuDe {
+    float: right;
+    margin-right: 200px;
+    margin-top: 15px;
+}
+
+.container header .inner .logo .tieuDe a {
+    text-decoration: none;
+    margin: 100px;
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    font-weight: bold;
+}
+
+
+.container header .inner .logo .tieuDe a:hover {
+    border: 2px solid;
+    border-radius: 20px;
+    transition: all 0.2s linear;
+    font-size: 20px;
+    background-color: rgb(125, 125, 124);
+}
+
+
+.container header .inner .logo .tieuDe ul {
+    float: right;
+    margin-right: -25px;
+}
+
+.container header .inner .logo .tieuDe ul a {
+    margin: 20px;
+}
+
+/*  css cho phần cart */
+.container section .cart {
+    width: 1920px;
+    height: 1400px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    margin-bottom: 300px;
+    background-color: #ffffff;
+}
+
+.container section .cart .content-cart1 {
+    float: left;
+    margin-left: 140px;
+}
+
+.container section .cart .content-cart1 h1 {
+    padding: 50px 50px 50px 140px;
+}
+
+.container section .cart .content-cart1 hr {
+    color: #000;
+}
+
+.container section .cart .content-cart1 .td thead tr .left {
+    float: left;
+    margin-right: 400px;
+}
+
+.container section .cart .content-cart1 .td thead tr .right {
+    /* float: right; */
+    margin: 0 0 0 20px;
+    padding: 0 35px 0 0;
+}
+
+
+.container section .cart .content-cart1 #td {
+    display: flex;
+    width: 800px;
+    height: 100px;
+}
+
+.container section .cart .content-cart1 #td .tr .bang-up .ten {
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+.container section .cart .content-cart1 #td .tr .bang-up .a {
+    margin-left: 25px;
+}
+
+.container section .cart .content-cart1 #td .tr .bang-up .b {
+    margin-left: 45px;
+}
+
+.container section .cart .content-cart1 #td .bang-up .sl #button-2 {
+    width: 40px;
+}
+
+.container section .cart .content-cart1 #td .bang-up .sl #button-1 {
+    width: 10px;
+    margin-left: 30px;
+}
+
+
+.container section .cart .content-cart1 hr {
+    margin-top: 25px;
+}
+
+.container section .cart .content-cart1 .button {
+    margin-top: 50px;
+}
+
+.container section .cart .content-cart1 .button button {
+    color: #ffffff;
+    background-color: rgb(255, 41, 41);
+    border: none;
+    border-radius: 15px;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container section .cart .content-cart2 {
+    float: right;
+    margin-top: 110px;
+    width: 800px;
+    height: 500px;
+}
+
+.container section .cart .content-cart2 .cart-total .right-1 {
+    float: right;
+    margin-right: 200px;
+    width: 600px;
+    height: 400px;
+}
+
+.container section .cart .content-cart2 .cart-total .right-1 thead .ch th {
+    font-weight: normal;
+    width: 500px;
+    font-weight: bold;
+    font-size: 19px;
+}
+.container section .cart .content-cart2 .cart-total .right-1 thead .ch th hr {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-left: 50px;
+    width: 150px;
+    border: 1px solid red;
+
+}
+
+.container section .cart .content-cart2 .cart-total .right-1 thead .a {
+    width: 100px;
+    margin: 20px;
+}
+.container section .cart .content-cart2 .cart-total .right-1 thead .b {
+    width: 100px;
+    margin: 20px;
+}
+.container section .cart .content-cart2 .cart-total .right-1 thead .c {
+    width: 100px;
+    margin: 20px;
+}
+
+.container section .cart .content-cart2 .cart-total .right-1 thead .a th {
+    margin-left: -200px; 
+}
+/* .container section .cart .content-cart2 .cart-total .right-1 thead .a th hr {
+
+    margin-left: 50px; 
+    margin-top: 50px;
+    /* margin-left: -320px; 
+    width: 150px;
+    border: 0.2px solid red;
+} */
+
+.container section .cart .content-cart2 .cart-total .right-1 thead .a td {
+    padding-left: 400px;
+}
+
+.container section .cart .content-cart2 .cart-total .right-1 thead .c th {
+    margin-left: -200px;
+}
+
+.container section .cart .content-cart2 .cart-total .right-1 thead .c td {
+    padding-left: 400px;
+}
+
+.container section .cart .content-cart2 .cart-total .right-1 thead .b th {
+    margin-left: -200px;
+}
+
+.container section .cart .content-cart2 .cart-total .right-1 thead .b td {
+    padding-left: 400px;
+}
+
+
+.container section .cart .content-cart2 hr{
+    /* width: 400px; */
+    border: 1px solid red;
+
+}
+
+
+.container section .cart .content-cart2 .chekout button {
+    margin-left: 20px; 
+    width: 580px;
+    height: 40px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    background-color: rgb(255, 41, 41);
+    border-radius: 10px;
+}
+
+
+
+
+/* End, Cart */
+
+/* css cho phan footer  */
+
+
+/* footer */
+footer .inner3 {
+    background: linear-gradient(180deg, rgba(44, 57, 84, 0.84) 0%, #8C8FA0 32.93%, #f1f5f7 87.16%, #ebe7ef 95.43%);
+
+    width: 1920PX;
+    height: 500px;
+    margin-top: -1020px;
+}
+
+footer .inner3 .thongtin {
+    width: 1800px;
+    margin: auto;
+    height: auto;
+    display: flex;
+}
+
+/* css cho giowis thieu */
+
+footer .inner3 .thongtin .tt1 {
+    width: 33%;
+    height: 200px;
+    margin-right: 40px;
+}
+
+footer .inner3 .thongtin .tt1 h4 {
+    color: rgb(218, 210, 199);
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+footer .inner3 .thongtin .tt1 hr {
+    width: 30%;
+    margin-left: 170px;
+    margin-top: 10px;
+    height: 1px;
+}
+
+footer .inner3 .thongtin .tt1 p {
+    color: aqua;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+/* css cho thoong tin liene heej */
+
+
+footer .inner3 .thongtin .tt2 {
+    width: 33%;
+    height: 500px;
+    margin-right: 40px;
+}
+
+
+footer .inner3 .thongtin .tt2 h4 {
+    color: rgb(218, 210, 199);
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+footer .inner3 .thongtin .tt2 hr {
+    width: 30%;
+    margin-left: 190px;
+    margin-top: 10px;
+    height: 1px;
+}
+
+
+footer .inner3 .thongtin .tt2 img {
+    margin-top: 18px;
+    float: left;
+    left: 0px;
+}
+
+footer .inner3 .thongtin .tt2 img:hover {
+    border: 2px solid white;
+    border-radius: 20px;
+    transition: all 0.2s linear;
+}
+
+footer .inner3 .thongtin .tt2 p {
+    /* float: right; */
+    color: aqua;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+footer .inner3 .thongtin .tt2 a {
+    padding-top: 30px;
+    margin: 10px 20px;
+    float: left;
+
+}
+
+footer .inner3 .thongtin .tt2 a:hover {
+    border-radius: 20px;
+    border: 1px solid rgb(102, 91, 169);
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+
+/* css chop chuyeen muc  */
+
+footer .inner3 .thongtin .tt3 {
+    width: 33%;
+    height: 500px;
+    margin-right: 40px;
+}
+
+
+footer .inner3 .thongtin .tt3 h4 {
+    color: rgb(218, 210, 199);
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+footer .inner3 .thongtin .tt3 hr {
+    width: 30%;
+    margin-left: 170px;
+    margin-top: 10px;
+    height: 1px;
+}
+
+footer .inner3 .thongtin .tt3 p {
+    color: aqua;
+    margin-top: 40px;
+    margin-left: 140px;
+}
+
+/* css cho footer cuoi */
+footer .inner3 .footer {
+    width: 100%;
+    margin-top: -30px;
+    height: 10px;
+}
+
+footer .inner3 .footer p {
+    text-align: center;
+    color: aqua;
+}
+
+/* End. footer */

@@ -1,0 +1,438 @@
+html {
+    font-family: 'Quicksand', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 999px;
+}
+
+.container {
+    position: relative;
+    width: 1920px;
+    height: 2000px;
+
+    background: linear-gradient(180deg, rgba(44, 57, 84, 0.84) 0%, #8C8FA0 32.93%, #f1f5f7 87.16%, #ebe7ef 95.43%);
+}
+
+.container header .inner {
+    /* position: absolute;  */
+    width: 1920px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    right: 0;
+
+}
+
+
+.container header .inner .logo {
+    margin-left: 140px;
+}
+
+.container header .inner .logo img {
+    width: 100px;
+    height: auto;
+}
+
+.container header .inner .logo .tieuDe {
+    float: right;
+    margin-right: 200px;
+    margin-top: 15px;
+}
+
+.container header .inner .logo .tieuDe a {
+    text-decoration: none;
+    margin: 100px;
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    font-weight: bold;
+}
+
+
+.container header .inner .logo .tieuDe a:hover {
+    border: 2px solid;
+    border-radius: 20px;
+    transition: all 0.2s linear;
+    font-size: 20px;
+    background-color: rgb(125, 125, 124);
+}
+
+
+.container header .inner .logo .tieuDe ul {
+    float: right;
+    margin-right: -25px;
+}
+
+.container header .inner .logo .tieuDe ul a {
+    margin: 20px;
+}
+
+/* css cho thanh tans san phaam ------------------> */
+
+.container section .pay{
+    width: 1920px;
+    height: 1170px;
+    box-sizing: border-box;
+
+    background-color: aliceblue;
+}
+.container section .ct-pay{
+    float: left;
+    width: 760px;
+    height: auto;
+    margin-left: 140px;
+    margin-top: 70px;
+
+    /* background-color: rgb(102, 192, 227); */
+}
+
+.container section .ct-pay h3{
+    font-size: 30px;
+    font-variant: small-caps;
+}
+
+.container section .ct-pay .thongtin .name .first-name {
+    margin: 50px 0 20px 20px;
+}
+
+
+.container section .ct-pay .thongtin .name .first-name p{
+        color: black;
+
+}
+.container section .ct-pay .thongtin .name .first-name input{
+    margin: 0 30px ;
+    width: 250px;
+}
+
+
+.container section .ct-pay .thongtin .location{
+    display: flex;
+    margin:  20px 20px 0 0px ;
+}
+.container section .ct-pay .thongtin .location p{
+    margin: 0  20px 0px 20px;
+    color: rgb(0, 0, 0);
+}
+
+.container section .ct-pay .thongtin .file{
+    display: flex;
+    margin:  20px 20px 0 0px ;
+
+}
+.container section .ct-pay .thongtin .file p{
+    margin: 0  20px 0px 20px;
+}
+.container section .ct-pay .thongtin .file input{
+    margin: 20px  20px 0px 0px;
+}
+
+.container section .ct-pay .thongtin .email{
+    margin:  20px 20px 0 20px ;
+}
+
+.container section .ct-pay .thongtin .email input{
+    margin: 20px  20px 0px 0px;
+}
+
+.container section .ct-pay .thongtin .note{
+    margin:  20px 20px 0 20px ;
+}
+
+.container section .ct-pay .thongtin .note textarea{
+    margin: 20px  20px 0px 0px;
+}
+
+/* -------------------------------------------------- */
+
+.container section .order{
+    float: left;
+    width: 760px;
+    height: auto;
+    margin-left: 60px;
+    margin-right: 170px;
+    margin-top: 70px;
+
+}
+
+.container section .order h3{
+    font-size: 30px;
+    font-variant: small-caps;
+}
+.container section .order .category{
+    margin: 50px 0 20px 20px;
+}
+.container section .order .category p #b{
+    margin-left: 580px;
+}
+.container section .order .category hr{
+    margin-top: 20px;
+    border: 1px solid red;
+}
+
+.container section .order .name-sp{
+    margin: 50px 0 20px 20px;
+}
+
+.container section .order .name-sp p #c{
+    margin-left: 655px;
+}
+.container section .order .name-sp hr{
+    margin-top: 20px;
+    border: 1px solid red;
+}
+.container section .order .total
+{
+    margin: 50px 0 20px 20px;
+}
+
+.container section .order .total
+ p #d{
+    margin-left: 655px;
+}
+.container section .order .total
+ hr{
+    margin-top: 20px;
+    border: 1px solid red;
+}
+
+
+.container section .order .ship  
+{
+    margin: 50px 0 20px 20px;
+}
+
+.container section .order .ship  
+p #e{
+    margin-left: 410px;
+}
+.container section .order .ship  
+ hr{
+    margin-top: 20px;
+    border: 1px solid red;
+}
+
+
+.container section .order .Total-a
+{
+    margin: 50px 0 20px 20px;
+}
+
+.container section .order .Total-a
+
+ p #f{
+    margin-left: 655px;
+}
+.container section .order .Total-a
+
+ hr{
+    margin-top: 20px;
+    border: 1px solid red;
+}
+
+
+.container section .order .bank
+{
+    margin: 50px 0 20px 20px;
+}
+/* .container section .order .bank .atm
+{
+    margin: 20px 20px;
+} */
+.container section .order .bank .atm img
+{
+    margin: 20px;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 10px;
+    box-shadow:  0px 0px 10px 10px rgb(255, 255, 255);
+}
+
+.container section .order .bank-a
+{
+    margin: 30px 0 20px 20px;
+}
+.container section .order .button
+{
+    margin: 50px 0 20px 20px;
+}
+.container section .order .button button
+{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 530px; 
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.container section .order .note-a
+{
+    margin: 50px 0 20px 20px;
+}
+
+
+
+
+
+
+
+/* -----------------------------> */
+
+
+
+
+/* End. Pay  ----------------->>*/
+
+/* css cho phan footer  */
+
+
+/* footer */
+footer .inner3 {
+    background: linear-gradient(180deg, rgba(44, 57, 84, 0.84) 0%, #8C8FA0 32.93%, #f1f5f7 87.16%, #ebe7ef 95.43%);
+
+    width: 1920PX;
+    height: 500px;
+    margin-top: 0px;
+}
+
+footer .inner3 .thongtin {
+    width: 1800px;
+    margin: auto;
+    height: auto;
+    display: flex;
+}
+
+/* css cho giowis thieu */
+
+footer .inner3 .thongtin .tt1 {
+    width: 33%;
+    height: 200px;
+    margin-right: 40px;
+}
+
+footer .inner3 .thongtin .tt1 h4 {
+    color: rgb(218, 210, 199);
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+footer .inner3 .thongtin .tt1 hr {
+    width: 30%;
+    margin-left: 170px;
+    margin-top: 10px;
+    height: 1px;
+}
+
+footer .inner3 .thongtin .tt1 p {
+    color: aqua;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+/* css cho thoong tin liene heej */
+
+
+footer .inner3 .thongtin .tt2 {
+    width: 33%;
+    height: 500px;
+    margin-right: 40px;
+}
+
+
+footer .inner3 .thongtin .tt2 h4 {
+    color: rgb(218, 210, 199);
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+footer .inner3 .thongtin .tt2 hr {
+    width: 30%;
+    margin-left: 190px;
+    margin-top: 10px;
+    height: 1px;
+}
+
+
+footer .inner3 .thongtin .tt2 img {
+    margin-top: 18px;
+    float: left;
+    left: 0px;
+}
+
+footer .inner3 .thongtin .tt2 img:hover {
+    border: 2px solid white;
+    border-radius: 20px;
+    transition: all 0.2s linear;
+}
+
+footer .inner3 .thongtin .tt2 p {
+    /* float: right; */
+    color: aqua;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+footer .inner3 .thongtin .tt2 a {
+    padding-top: 30px;
+    margin: 10px 20px;
+    float: left;
+ 
+}
+
+footer .inner3 .thongtin .tt2 a:hover{
+    border-radius: 20px;
+    border: 1px solid rgb(102, 91, 169);
+   width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+
+/* css chop chuyeen muc  */
+
+footer .inner3 .thongtin .tt3 {
+    width: 33%;
+    height: 500px;
+    margin-right: 40px;
+}
+
+
+footer .inner3 .thongtin .tt3 h4 {
+    color: rgb(218, 210, 199);
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+footer .inner3 .thongtin .tt3 hr {
+    width: 30%;
+    margin-left: 170px;
+    margin-top: 10px;
+    height: 1px;
+}
+
+footer .inner3 .thongtin .tt3 p {
+    color: aqua;
+    margin-top: 40px;
+    margin-left: 140px;
+}
+
+/* css cho footer cuoi */
+footer .inner3 .footer {
+    width: 100%;
+    margin-top: -30px;
+    height: 10px;
+}
+
+footer .inner3 .footer p {
+    text-align: center;
+    color: aqua;
+}
+
+/* End. footer */
